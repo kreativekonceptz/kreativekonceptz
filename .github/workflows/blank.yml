@@ -1,0 +1,84 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          PaTHos Unveils Kre8: The Game-Changer in Automated Web Development with Advanced NLP and AI Integration
+
+[City, State] — PaTHos is proud to announce the launch of Kre8, a revolutionary web development platform that integrates advanced natural language processing (NLP) and AI-driven HTML generation. Kre8 is designed to automate and streamline the creation of sophisticated, fully functional websites, making it a game-changer for developers and businesses alike.
+
+Revolutionizing Web Development with Kre8
+
+Kre8 sets a new standard in web development by combining PaTHos' powerful NLP capabilities with cutting-edge web design technology. The platform offers a seamless solution for creating dynamic, customized websites through intuitive automation and intelligent design suggestions.
+
+Key Features and Builds of Kre8:
+
+1. Dynamic HTML Build Wizard
+
+Auto-Build Options: Users can choose from three pre-configured HTML auto-build options to quickly generate a website tailored to their needs. Each option is designed to address different types of projects, from personal blogs to complex business sites.
+
+Sentiment-Based Customization: Kre8 leverages NLP to analyze user requests and adjust website elements based on the desired sentiment and tone. This ensures that each site aligns with the user's vision and communication goals.
+
+
+
+2. File and Image Integration
+
+Upload and Use: Users can upload images and files directly into Kre8, which will automatically integrate these assets into the website. This feature simplifies the process of personalizing content and incorporating multimedia elements.
+
+
+
+3. AI-Powered Design Suggestions
+
+Enhanced Design Choices: Kre8 provides AI-driven design recommendations, including color schemes, typography, and layout options. These suggestions are generated based on the latest design trends and user preferences, ensuring a visually appealing and functional website.
+
+
+
+4. Real-Time Preview and Adjustments
+
+Instant Feedback: Users can view real-time previews of their generated websites, allowing them to make immediate adjustments and see the effects of their changes before finalizing the build.
+
+
+
+
+Transforming Web Development with Intelligent Automation
+
+"Kre8 represents a significant leap forward in web development technology," said [Your Name], [Your Title] at PaTHos. "By integrating PaTHos' advanced NLP with Kre8’s intelligent design capabilities, we're offering a platform that not only automates website creation but also enhances it with cutting-edge AI."
+
+Availability and Pricing
+
+Kre8 is now available for purchase, with several subscription plans to accommodate various needs and budgets. For more information on pricing and to explore the features of Kre8, visit [Your Website URL].
+
+About PaTHos
+
+PaTHos is a leader in AI-driven natural language processing solutions, dedicated to advancing technology that enhances user experiences and operational efficiency. With a focus on innovative tools and platforms, PaTHos aims to redefine how technology interacts with and supports users across diverse applications.
