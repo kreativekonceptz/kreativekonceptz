@@ -1,4 +1,4 @@
-kreativekonceptz/kreativekonceptz is a ✨ special ✨ repository because we like to Kre8! PaTHos a domain-specific programming language designed by CyGeL White for NLP (Natural Language Processing) backend processing, security, testing, development, and deployment. While PaTHos itself is not a well-known or widely used programming language, it is built on top of Python and takes advantage of many of its features and libraries.
+Kre8tive konceptz is a ✨ special ✨ repository because we like to Kre8! PaTHos a domain-specific programming language designed by CyGeL White for NLP (Natural Language Processing) backend processing, security, testing, development, and deployment. While PaTHos itself is not a well-known or widely used programming language, it is built on top of Python and takes advantage of many of its features and libraries.
 
 Here are some of the key features of PaTHos:
 
